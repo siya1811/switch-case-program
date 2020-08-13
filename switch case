@@ -1,0 +1,47 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package siya;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author KESHAV
+ */
+public class Siya {
+    
+    
+    
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+            int choice;
+            System.out.println("Pick one: 1. Shahrukh\t2 Kartik\t3 akshay\t");
+            Scanner s = new Scanner(System.in);
+            choice = s.nextInt();
+             switch(choice)
+             {
+                 
+                case 1: System.out.println("Best actor is Shahrukh");
+                break;
+                case 2:System.out.println("Best actor is Kartik ");
+                break;
+                case 3:System.out.println("Best actor is akshay ");
+                break;
+                default: System.out.println("Invalid choice");
+           
+            }            
+            
+        // TODO code application logic here
+    }
+
+ 
+}
+    
+    
+
